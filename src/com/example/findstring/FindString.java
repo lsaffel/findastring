@@ -25,7 +25,7 @@ public class FindString {
         System.out.println(inputSearchPath);
         System.out.println("---------------------------------------");
 
-        System.out.println("The files (including paths) that contain the search string are the following");
+        System.out.println("The files (including paths) that contain the search string are the following,");
         System.out.println("or if there are no files containing the search string, then this will be blank:");
 
         findTheString(inputSearchString, inputSearchPath);
