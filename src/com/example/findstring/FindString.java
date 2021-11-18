@@ -64,7 +64,7 @@ public class FindString {
                 BufferedReader br = new BufferedReader(new FileReader(path));
                 String line;
                 stringFound = false;    // initialize
-                while ((line = br.readLine()) != null) {
+                while (((line = br.readLine()) != null) && !stringFound)  {
                     // Check if the string searchString is in the line "line" in the file.
                     // If it is, print the path and file name.
                     // If the string is not in that line of the file, then do nothing.
