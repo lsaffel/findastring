@@ -1,5 +1,5 @@
 # findastring
-A program to read in a string and a path, then search all of the files in the path 
+A program to read in a string and a path, then search all of the files in the path (directory)
 and print out the paths of the files that contain the string.
 
 Java
